@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin: 0;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body onclick="play();">
+    <div class="profile">
+        <img src="https://media.tenor.com/CFowpSoO7VsAAAAM/adad.gif" alt="Profile Picture">
+        <h1>AlpraZoLam</h1>
+        <p>17 Years Old</p>
+        <p>Cyber Security Enthusiast</p>
+        
+    </div>
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+
+    <audio id="audio" src="http://dl.sndup.net/cyhhf/S.mp3"></audio>
+</body>
+</html>
