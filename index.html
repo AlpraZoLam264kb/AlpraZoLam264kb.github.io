@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Word Bahasa Indonesia</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 50px;
+        }
+        input[type="text"] {
+            background-color: #000;
+            color: #0f0;
+            border: 2px solid #0f0;
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+        }
+        input[type="submit"] {
+            background-color: #00f;
+            color: #fff;
+            border: 2px solid #00f;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #0f0f0f;
+            color: #00ff00;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Silakan input kami akan mencarinya di kbbi</h1>
+    <form action="proses.php" method="get">
+        <input type="text" name="search" placeholder="Search..." required>
+        <br>
+        <input type="submit" value="Search">
+    </form>
+    <footer>
+        <p>® Coded by AlpraZoLam</p>
+    </footer>
+</body>
+</html>
